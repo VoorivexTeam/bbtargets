@@ -8164,7 +8164,7 @@
     {
         "handle": "wellsfargo",
         "bounty": 0,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -102116,6 +102116,68 @@
                 {
                     "identifier": "*.zodiac.tel",
                     "type": "WILDCARD"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "wellsfargo-bbp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.wellsfargo.com",
+                    "type": "WILDCARD"
+                },
+                {
+                    "identifier": "connect.secure.wellsfargo.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "*.wf.com",
+                    "type": "WILDCARD"
+                },
+                {
+                    "identifier": "com.wellsfargo.ceomobile",
+                    "type": "GOOGLE_PLAY_APP_ID"
+                },
+                {
+                    "identifier": "com.wf.wellsfargomobile",
+                    "type": "GOOGLE_PLAY_APP_ID"
+                },
+                {
+                    "identifier": "com.wf.mobilebanking",
+                    "type": "APPLE_STORE_APP_ID"
+                },
+                {
+                    "identifier": "com.wf.ceomobile",
+                    "type": "APPLE_STORE_APP_ID"
+                },
+                {
+                    "identifier": "http://wellsfargo.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "http://wf.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "*.advisor-connection.com",
+                    "type": "OTHER"
+                },
+                {
+                    "identifier": "*.mworld.com",
+                    "type": "OTHER"
+                },
+                {
+                    "identifier": "*.wellsfargoadvisors.com",
+                    "type": "OTHER"
+                },
+                {
+                    "identifier": "*.wystar.com",
+                    "type": "OTHER"
                 }
             ],
             "out_of_scope": []
