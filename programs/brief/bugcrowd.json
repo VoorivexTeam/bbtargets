@@ -6502,6 +6502,60 @@
         }
     },
     {
+        "handle": "engagements/devtools-vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Kendo UI",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik UI for ASP.NET AJAX",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik UI for ASP.NET Core",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerk UI for ASP.NET MVC",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik UI for Blazor",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik UI for WPF",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik UI for WinForms",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik UI for MAUI",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik Fiddler",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik Test Studio",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Telerik Theme Builder",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/flowmon-vdp",
         "bounty": 0,
         "active": 1,
@@ -13306,49 +13360,6 @@
         }
     },
     {
-        "handle": "engagements/whmcs",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Researcher owned WHMCS Instance",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Live production instance of WHMCS (Any instances not owned by you)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.whmcs.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "whmcs.community",
-                    "type": "website"
-                },
-                {
-                    "identifier": "WHMCS iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "WHMCS Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "WHMCS Windows mobile app",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.whmcs.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bullish-exchange",
         "bounty": 1,
         "active": 1,
@@ -14956,60 +14967,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -15436,6 +15393,103 @@
         }
     },
     {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/whmcs",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Researcher owned WHMCS Instance",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Live production instance of WHMCS (Any instances not owned by you)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.whmcs.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "whmcs.community",
+                    "type": "website"
+                },
+                {
+                    "identifier": "WHMCS iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "WHMCS Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "WHMCS Windows mobile app",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.whmcs.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/humblebundle",
         "bounty": 1,
         "active": 0,
@@ -15809,124 +15863,6 @@
         }
     },
     {
-        "handle": "engagements/mastercard",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developer.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "donate.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Core Priceless.com - demo.priceless.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://europe.priceless.com/shb",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/golf/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pricelesssurprises.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/aa/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/aviator/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/citiaadvantage/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://performancemarketing.mastercard.com/portal/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/profile/enroll",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": " Finicity Connect",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity- Data Services",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity Decisioning",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.finicity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://consumer.finicityreports.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Finicity- Open Banking Payment History application",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Public Others Target",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/pixabay",
         "bounty": 1,
         "active": 1,
@@ -16132,36 +16068,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -17023,6 +16929,154 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/mastercard",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developer.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "donate.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Core Priceless.com - demo.priceless.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://europe.priceless.com/shb",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/golf/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pricelesssurprises.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/aa/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/aviator/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/citiaadvantage/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://performancemarketing.mastercard.com/portal/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/profile/enroll",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": " Finicity Connect",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity- Data Services",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity Decisioning",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.finicity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://consumer.finicityreports.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Finicity- Open Banking Payment History application",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Public Others Target",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -20095,28 +20149,6 @@
         }
     },
     {
-        "handle": "engagements/bitgo-mbb-og-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.bitgo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo-test.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/tesla",
         "bounty": 1,
         "active": 1,
@@ -20656,6 +20688,28 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/bitgo-mbb-og-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bitgo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo-test.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -22370,28 +22424,6 @@
         }
     },
     {
-        "handle": "engagements/orderlynetwork-mbb-og2",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://orderly.network/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.orderly.org/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-evm.orderly.org/",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/kohls",
         "bounty": 1,
         "active": 1,
@@ -22528,6 +22560,28 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/orderlynetwork-mbb-og2",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://orderly.network/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.orderly.org/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-evm.orderly.org/",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
