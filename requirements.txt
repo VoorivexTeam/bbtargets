@@ -1,0 +1,4 @@
+httpx
+tenacity==8.3.0
+python-dotenv
+rich
