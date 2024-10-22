@@ -1,45 +1,57 @@
 [
     {
-        "handle": "tchap-public",
+        "handle": "withings-public-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.tchap.gouv.fr",
+                    "identifier": "https://wbsapi.withings.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://healthmate.withings.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://matrix.agent.tchap.gouv.fr",
+                    "identifier": "https://account.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://app.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://developer.withings.com/dashboard/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://scalews.withings.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://github.com/tchapgouv",
+                    "identifier": "Body Scan scale",
                     "type": "other"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
-                    "type": "mobile-application-android"
+                    "identifier": "Body Comp scale",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
-                    "type": "mobile-application-ios"
+                    "identifier": "Scanwatch Light",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://www.beta.tchap.gouv.fr",
-                    "type": "web-application"
+                    "identifier": "Scanwatch 2",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://matrix.i.tchap.gouv.fr",
-                    "type": "api"
+                    "identifier": "Scanwatch Nova",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://matrix.e.tchap.gouv.fr",
-                    "type": "api"
+                    "identifier": "Scanwatch",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -194,6 +206,52 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
                     "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "tchap-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.agent.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://github.com/tchapgouv",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.beta.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.i.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.e.tchap.gouv.fr",
+                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -748,64 +806,6 @@
                 {
                     "identifier": "https://bot-tester.datadome.co/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "withings-public-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://wbsapi.withings.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://healthmate.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://account.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://app.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://developer.withings.com/dashboard/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://scalews.withings.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Body Scan scale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Body Comp scale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Light",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch 2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Nova",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
