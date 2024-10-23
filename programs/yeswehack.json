@@ -1,197 +1,5 @@
 [
     {
-        "title": "Contentsquare Bug Bounty Program",
-        "slug": "contentsquare-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 165,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2500,
-        "scopes_count": 5,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "55bcf248-5f61-418b-9de6-f3fbb5ddd1b0",
-            "original_name": "1648047227139.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 8409,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/55bcf248-5f61-418b-9de6-f3fbb5ddd1b0"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Contentsquare",
-            "slug": "contentsquare",
-            "description": "UX Analytics",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "618d1e69-b739-4e9c-906b-8dd4a53dbd41",
-                "original_name": "1648047227139.jpeg",
-                "mime_type": "image/jpeg",
-                "size": 8409,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/618d1e69-b739-4e9c-906b-8dd4a53dbd41"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.contentsquare.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://mobile-production.content-square.net/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://m.csqtrk.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://s.contentsquare.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Contentsquare SDK (cf : Program Description)",
-                "scope_type": "application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Legapass",
-        "slug": "legapass-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 66,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "a28ba958-48f9-4241-99f1-4a67950badf7",
-            "original_name": "logo-legapass.png",
-            "mime_type": "image/png",
-            "size": 4274,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/a28ba958-48f9-4241-99f1-4a67950badf7"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Legapass",
-            "slug": "legapass",
-            "description": "Legapass offers a solution to ensure the transmission of sensitive data in complete confidentiality in case of death or disaster.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "fd1b53fa-8d60-4219-a26e-4d4617eb557a",
-                "original_name": "logo.png",
-                "mime_type": "image/png",
-                "size": 1693,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/fd1b53fa-8d60-4219-a26e-4d4617eb557a"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://bounty.legapass.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "YesWeHack Dojo",
-        "slug": "dojo",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": false,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": false,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1506,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "85c3578b-bc74-497f-be7a-6bde95722acc",
-            "original_name": "YWH_DOJO_pgm.PNG",
-            "mime_type": "image/png",
-            "size": 21970,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/85c3578b-bc74-497f-be7a-6bde95722acc"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "YesWeHack Dojo",
-            "slug": "dojo-by-yes-we-hack",
-            "description": "Step into the YesWeHack Dojo for exciting monthly challenges that bring real-world vulnerabilities to life in a Capture The Flag (CTF) format. \r\n\r\nEach month, a new challenge awaits, offering you the opportunity to sharpen your skills, earn points for successful solves, and fast-track your way to exclusive private invites. Submit one of the top three write-ups, and you\u2019ll win an exclusive swag pack!\r\n\r\nRemember, only KYC-verified hunters are eligible for private invites, so be sure your verification is complete.\r\n\r\nReady to level up? Challenge yourself and let's hack the planet! \ud83e\udd18",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "5c59bf03-e5ff-4291-9f2d-3516ed672e4c",
-                "original_name": "YWH_DOJO_Icon.png",
-                "mime_type": "image/png",
-                "size": 750022,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5c59bf03-e5ff-4291-9f2d-3516ed672e4c"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Dailymotion public bug bounty",
         "slug": "dailymotion-public-bug-bounty",
         "country": "FR",
@@ -211,7 +19,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1146,
+        "reports_count": 1147,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 11,
@@ -303,6 +111,286 @@
                 "scope": "Google Cloud Plateform Instances",
                 "scope_type": "other",
                 "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "OpenPGP.js Bug Bounty Program",
+        "slug": "openpgp-js-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 2,
+        "bounty_reward_min": 250,
+        "bounty_reward_max": 10000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9b79779d-7a09-4b1f-8ab9-66aa2155e286",
+            "original_name": "icon_openpgpjs.png",
+            "mime_type": "image/png",
+            "size": 6959,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9b79779d-7a09-4b1f-8ab9-66aa2155e286"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "Sovereign Tech Fund",
+            "slug": "sovereign-tech-fund",
+            "description": "Securing Open Source Ecosystem",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
+                "original_name": "stf-avatar-1-short copy.png",
+                "mime_type": "image/png",
+                "size": 12477,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "Security Vulnerability in OpenPGP.js's high-level API",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Security Vulnerability in the OpenPGP Standard",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Interoperability Issue in OpenPGP.js",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Legapass",
+        "slug": "legapass-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 67,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "a28ba958-48f9-4241-99f1-4a67950badf7",
+            "original_name": "logo-legapass.png",
+            "mime_type": "image/png",
+            "size": 4274,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/a28ba958-48f9-4241-99f1-4a67950badf7"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Legapass",
+            "slug": "legapass",
+            "description": "Legapass offers a solution to ensure the transmission of sensitive data in complete confidentiality in case of death or disaster.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "fd1b53fa-8d60-4219-a26e-4d4617eb557a",
+                "original_name": "logo.png",
+                "mime_type": "image/png",
+                "size": 1693,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/fd1b53fa-8d60-4219-a26e-4d4617eb557a"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://bounty.legapass.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Contentsquare Bug Bounty Program",
+        "slug": "contentsquare-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 165,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2500,
+        "scopes_count": 5,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "55bcf248-5f61-418b-9de6-f3fbb5ddd1b0",
+            "original_name": "1648047227139.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 8409,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/55bcf248-5f61-418b-9de6-f3fbb5ddd1b0"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Contentsquare",
+            "slug": "contentsquare",
+            "description": "UX Analytics",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "618d1e69-b739-4e9c-906b-8dd4a53dbd41",
+                "original_name": "1648047227139.jpeg",
+                "mime_type": "image/jpeg",
+                "size": 8409,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/618d1e69-b739-4e9c-906b-8dd4a53dbd41"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.contentsquare.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://mobile-production.content-square.net/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://m.csqtrk.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://s.contentsquare.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Contentsquare SDK (cf : Program Description)",
+                "scope_type": "application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "YesWeHack Dojo",
+        "slug": "dojo",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 1506,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "85c3578b-bc74-497f-be7a-6bde95722acc",
+            "original_name": "YWH_DOJO_pgm.PNG",
+            "mime_type": "image/png",
+            "size": 21970,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/85c3578b-bc74-497f-be7a-6bde95722acc"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "YesWeHack Dojo",
+            "slug": "dojo-by-yes-we-hack",
+            "description": "Step into the YesWeHack Dojo for exciting monthly challenges that bring real-world vulnerabilities to life in a Capture The Flag (CTF) format. \r\n\r\nEach month, a new challenge awaits, offering you the opportunity to sharpen your skills, earn points for successful solves, and fast-track your way to exclusive private invites. Submit one of the top three write-ups, and you\u2019ll win an exclusive swag pack!\r\n\r\nRemember, only KYC-verified hunters are eligible for private invites, so be sure your verification is complete.\r\n\r\nReady to level up? Challenge yourself and let's hack the planet! \ud83e\udd18",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5c59bf03-e5ff-4291-9f2d-3516ed672e4c",
+                "original_name": "YWH_DOJO_Icon.png",
+                "mime_type": "image/png",
+                "size": 750022,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5c59bf03-e5ff-4291-9f2d-3516ed672e4c"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -5873,94 +5961,6 @@
                 "scope": "cam.notebleue.pro",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "OpenPGP.js Bug Bounty Program",
-        "slug": "openpgp-js-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1,
-        "bounty_reward_min": 250,
-        "bounty_reward_max": 10000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9b79779d-7a09-4b1f-8ab9-66aa2155e286",
-            "original_name": "icon_openpgpjs.png",
-            "mime_type": "image/png",
-            "size": 6959,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9b79779d-7a09-4b1f-8ab9-66aa2155e286"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "Sovereign Tech Fund",
-            "slug": "sovereign-tech-fund",
-            "description": "Securing Open Source Ecosystem",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
-                "original_name": "stf-avatar-1-short copy.png",
-                "mime_type": "image/png",
-                "size": 12477,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "Security Vulnerability in OpenPGP.js's high-level API",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Security Vulnerability in the OpenPGP Standard",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Interoperability Issue in OpenPGP.js",
-                "scope_type": "other",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
