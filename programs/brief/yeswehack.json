@@ -1,49 +1,29 @@
 [
     {
-        "handle": "dojo",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "yes-we-hack",
+        "handle": "agora",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://yeswehack.com",
+                    "identifier": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://app.sandbox.agora.incubateur.net",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://api.yeswehack.com",
+                    "identifier": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://apps.yeswehack.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "bookbeat",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.bookbeat.com",
-                    "type": "web-application"
+                    "identifier": "https://content.agora.beta.gouv.fr",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -98,6 +78,56 @@
                 {
                     "identifier": "Google Cloud Plateform Instances",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dojo",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "yes-we-hack",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://yeswehack.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.yeswehack.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://apps.yeswehack.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "bookbeat",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.bookbeat.com",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -1546,36 +1576,6 @@
                 {
                     "identifier": "https://emistores.pinelabs.com/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "agora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://app.sandbox.agora.incubateur.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://content.agora.beta.gouv.fr",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
