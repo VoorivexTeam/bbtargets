@@ -1,20 +1,52 @@
 [
     {
-        "handle": "app-suite",
+        "handle": "dailymotion-public-bug-bounty",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://sandbox.open-xchange.com",
+                    "identifier": "*.dailymotion.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://sandbox.open-xchange.com",
+                    "identifier": "*.api.dailymotion.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "GitLab and GitHub repos listed on this page",
+                    "identifier": "developer.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.dmcdn.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "type": "api"
+                },
+                {
+                    "identifier": "AS41690",
+                    "type": "other"
+                },
+                {
+                    "identifier": "dmxleo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dm.gg",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Google Cloud Plateform Instances",
                     "type": "other"
                 }
             ],
@@ -58,6 +90,58 @@
                 {
                     "identifier": "https://service.post.ch/ele-klp/ele/",
                     "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "demarches-simplifiees-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr/api/v2/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://static.demarches-simplifiees.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "app-suite",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://sandbox.open-xchange.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://sandbox.open-xchange.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "GitLab and GitHub repos listed on this page",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -300,36 +384,6 @@
         }
     },
     {
-        "handle": "demarches-simplifiees-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.demarches-simplifiees.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.demarches-simplifiees.fr/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.demarches-simplifiees.fr/api/v2/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://static.demarches-simplifiees.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "govtech-vulnerability-disclosure-programme-policy",
         "bounty": 0,
         "active": 1,
@@ -410,60 +464,6 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
                     "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dailymotion-public-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.api.dailymotion.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.dmcdn.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
-                    "type": "api"
-                },
-                {
-                    "identifier": "AS41690",
-                    "type": "other"
-                },
-                {
-                    "identifier": "dmxleo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dm.gg",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Google Cloud Plateform Instances",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
