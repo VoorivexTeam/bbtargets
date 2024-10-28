@@ -7219,7 +7219,7 @@
     {
         "handle": "homebargains",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
@@ -71387,6 +71387,10 @@
                 {
                     "identifier": "*.getbouncer.com",
                     "type": "URL"
+                },
+                {
+                    "identifier": "*.lemonsqueezy.com",
+                    "type": "WILDCARD"
                 }
             ]
         }
