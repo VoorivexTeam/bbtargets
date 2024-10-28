@@ -32588,6 +32588,10 @@
                 {
                     "identifier": "about.deere.com",
                     "type": "URL"
+                },
+                {
+                    "identifier": "jdbulletins.deere.com",
+                    "type": "URL"
                 }
             ],
             "out_of_scope": [
