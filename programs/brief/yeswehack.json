@@ -1,120 +1,24 @@
 [
     {
-        "handle": "agora",
+        "handle": "alasco-gmbh-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://app.sandbox.agora.incubateur.net",
+                    "identifier": "app.alasco.de",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
+                    "identifier": "api.alasco.de",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://content.agora.beta.gouv.fr",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "qwant",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.qwant.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "s.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "s1.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "s2.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "qwantjunior.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "withings-public-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://wbsapi.withings.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://healthmate.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://account.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://app.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://developer.withings.com/dashboard/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://scalews.withings.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Body Scan scale",
+                    "identifier": "*.alasco.de",
                     "type": "other"
                 },
                 {
-                    "identifier": "Body Comp scale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Light",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch 2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Nova",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch",
+                    "identifier": "*.alasco.rocks",
                     "type": "other"
                 }
             ],
@@ -242,6 +146,128 @@
                 {
                     "identifier": "https://vc.tasheer.com/",
                     "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "agora",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://app.sandbox.agora.incubateur.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://content.agora.beta.gouv.fr",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "qwant",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.qwant.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "s.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "s1.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "s2.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "qwantjunior.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "withings-public-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://wbsapi.withings.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://healthmate.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://account.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://app.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://developer.withings.com/dashboard/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://scalews.withings.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Body Scan scale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Body Comp scale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch Light",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch 2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch Nova",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -754,32 +780,6 @@
                 {
                     "identifier": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "alasco-gmbh-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.alasco.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.alasco.de",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.alasco.de",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.alasco.rocks",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
