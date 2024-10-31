@@ -19,10 +19,10 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1517,
+        "reports_count": 1518,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
-        "scopes_count": 1,
+        "scopes_count": 2,
         "pentest_campaign_status": null,
         "thumbnail": {
             "name": "85c3578b-bc74-497f-be7a-6bde95722acc",
@@ -49,6 +49,12 @@
         "scopes": [
             {
                 "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://dojo-yeswehack.com/challenge-of-the-month/Halloween-Special---Spooky-Party-Invitation",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
                 "report_count": null

@@ -8,6 +8,10 @@
                 {
                     "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-36",
                     "type": "web-application"
+                },
+                {
+                    "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/Halloween-Special---Spooky-Party-Invitation",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
