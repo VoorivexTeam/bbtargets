@@ -1,5 +1,171 @@
 [
     {
+        "handle": "withings-public-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://wbsapi.withings.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://healthmate.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://account.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://app.withings.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://developer.withings.com/dashboard/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://scalews.withings.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Body Scan scale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Body Comp scale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch Light",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch 2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch Nova",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Scanwatch",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://pbgq.deontologie-policiere.gouv.qc.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-acces-info",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-revision",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/plainte-commissaire",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/reponses-questions",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://reptox.cnesst.gouv.qc.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://profile.pentest.clicsante.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://clients3.pentest.clicsante.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://portal3.pentest.clicsante.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api3.pentest.clicsante.ca",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://admin3.pentest.clicsante.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://poc-op-ywh.it.authentification.si.gouv.qc.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://auth-ywh.it.authentification.si.gouv.qc.ca",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.cyber.gouv.qc.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pab.donneesquebec.ca",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://gap.citizenportal-test.bugbounty.akinox.dev",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://test.m4sv.bugbounty.akinox.dev",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pbgq.upac.gouv.qc.ca/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pbgq-pes.upac.gouv.qc.ca/denonciation/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pbgq-pes.upac.gouv.qc.ca/nous-joindre/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "govtech-vulnerability-disclosure-programme-policy",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.gov.sg",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Domains where GovTech is the registrar",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "infomaniak-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -326,64 +492,6 @@
                 {
                     "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/Halloween-Special---Spooky-Party-Invitation",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "withings-public-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://wbsapi.withings.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://healthmate.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://account.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://app.withings.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://developer.withings.com/dashboard/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://scalews.withings.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Body Scan scale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Body Comp scale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Light",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch 2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch Nova",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Scanwatch",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -732,114 +840,6 @@
                 {
                     "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "govtech-vulnerability-disclosure-programme-policy",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.gov.sg",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Domains where GovTech is the registrar",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://pbgq.deontologie-policiere.gouv.qc.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-acces-info",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-revision",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/plainte-commissaire",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/reponses-questions",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://reptox.cnesst.gouv.qc.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://profile.pentest.clicsante.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://clients3.pentest.clicsante.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://portal3.pentest.clicsante.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://api3.pentest.clicsante.ca",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://admin3.pentest.clicsante.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://poc-op-ywh.it.authentification.si.gouv.qc.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://auth-ywh.it.authentification.si.gouv.qc.ca",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.cyber.gouv.qc.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pab.donneesquebec.ca",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://gap.citizenportal-test.bugbounty.akinox.dev",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://test.m4sv.bugbounty.akinox.dev",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pbgq.upac.gouv.qc.ca/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pbgq-pes.upac.gouv.qc.ca/denonciation/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pbgq-pes.upac.gouv.qc.ca/nous-joindre/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
