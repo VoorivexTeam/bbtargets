@@ -71260,6 +71260,10 @@
                 {
                     "identifier": "*.lemonsqueezy.com",
                     "type": "WILDCARD"
+                },
+                {
+                    "identifier": "Stripe Third Party Apps and Integrations",
+                    "type": "OTHER"
                 }
             ]
         }
