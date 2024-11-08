@@ -100740,33 +100740,6 @@
         }
     },
     {
-        "handle": "securityscorecard",
-        "bounty": 0,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.securityscorecard.io",
-                    "type": "WILDCARD"
-                },
-                {
-                    "identifier": "*.securityscorecard.com",
-                    "type": "WILDCARD"
-                },
-                {
-                    "identifier": "*.cvedetails.com",
-                    "type": "WILDCARD"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "support.securityscorecard.com",
-                    "type": "URL"
-                }
-            ]
-        }
-    },
-    {
         "handle": "wellsfargo-bbp",
         "bounty": 1,
         "active": 1,
