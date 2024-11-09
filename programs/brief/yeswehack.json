@@ -1,5 +1,27 @@
 [
     {
+        "handle": "app-suite",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://sandbox.open-xchange.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://sandbox.open-xchange.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "GitLab and GitHub repos listed on this page",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "toom-baumarkt-gmbh-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1965,28 +1987,6 @@
                 },
                 {
                     "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "app-suite",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://sandbox.open-xchange.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://sandbox.open-xchange.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "GitLab and GitHub repos listed on this page",
                     "type": "other"
                 }
             ],
