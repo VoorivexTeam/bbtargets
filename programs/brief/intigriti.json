@@ -3176,6 +3176,101 @@
         }
     },
     {
+        "handle": "intigriti",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*pwn.intigriti.rocks",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "www.intigriti.com",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.intigriti.io",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.intigriti.me",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.intigriti.net",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "any intigriti CTF or challenge",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "api.intercom.io",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "autodiscover.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "blog.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "careers.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "click.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "go.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "kb.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "mail.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "newsletter.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "status.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "swag.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "t.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "trust.intigriti.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "welcome.intigriti.com",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
         "handle": "mobile apps",
         "bounty": 1,
         "active": 1,

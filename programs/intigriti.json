@@ -10152,6 +10152,310 @@
         ]
     },
     {
+        "id": "6558543a-236f-4e98-91a3-4536e39b9c1e",
+        "handle": "intigriti",
+        "name": "intigriti",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 13337.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/intigriti/intigriti/detail"
+        },
+        "domains": [
+            {
+                "id": "f05fac3f-476c-4fa4-b827-02da3777f5d6",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*pwn.intigriti.rocks",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our test (PWN) environment that replicates production."
+            },
+            {
+                "id": "58b50a24-824c-4a98-943d-882b8f9759eb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.intigriti.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This is our marketing website."
+            },
+            {
+                "id": "298eb5f8-0c59-46d6-8529-aeea5e7ab727",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.io",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "a29fdcc7-4ade-4e1a-b9d4-7bba9b94faac",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.me",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "026d6adb-3412-477c-9692-b660960f702e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.net",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "22537fac-2bc7-4fba-b2f1-a4ac0585e4af",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "any intigriti CTF or challenge",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "e892c9e9-9d1e-4658-8ee3-4777295df1be",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.intercom.io",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d0a506a3-58c5-4d0b-86f5-9ba6ee6d2060",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "autodiscover.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "f738ef2e-a1f4-4d3d-bdcc-3c2208b95cb0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "blog.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "a623524c-a5f2-4ef9-8bf3-44e533f0d0b2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "careers.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "4bc8b1d6-339d-4431-b4ba-956c23ecd7bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "click.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "ce98ec7c-ac3a-41da-a8da-7f0b943716c3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "go.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "55071818-be20-4439-8832-e81aa2913931",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "kb.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d7afb2b5-89f6-46bf-a63a-678a02acfb2e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mail.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "b4341689-1423-4952-a64c-d3f10a6ae638",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "newsletter.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0a81612d-597e-4efd-9ca1-0f0c90321c90",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0b7600f0-6e71-4858-bc29-c1162695316f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "status.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "5d600efe-5b44-421f-8da5-efa35069674c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "swag.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "515153e8-8831-42e8-a397-656bfb022254",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "t.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "cb79b1eb-d9dd-4525-99af-3147023c00ea",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "trust.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "bc55f7b1-7179-4c95-bc6f-b9d3fba43141",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "welcome.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "670f183e-aca8-4bc1-87d7-5341c552d006",
         "handle": "mobile apps",
         "name": "Nexuzhealth",
