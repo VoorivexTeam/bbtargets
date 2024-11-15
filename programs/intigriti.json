@@ -6532,63 +6532,6 @@
         ]
     },
     {
-        "id": "4352dcef-dfc5-4d74-8fd8-9bef5aa16f18",
-        "handle": "skodaautoprivatebugbountyprogram",
-        "name": "Skoda Auto Bug Bounty Program",
-        "following": false,
-        "minBounty": {
-            "value": 200.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 5000.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 4,
-            "value": "Suspended"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/skodaauto/skodaautoprivatebugbountyprogram/detail"
-        },
-        "domains": [
-            {
-                "id": "7ab1da41-120c-4ab9-b6fe-ea587618de57",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1632202810",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "b177593a-bee1-45ec-a024-a7e9716e2a48",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "cz.skodaauto.myskoda",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
-    },
-    {
         "id": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
         "handle": "libelle",
         "name": "Libelle",

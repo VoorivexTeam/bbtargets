@@ -2039,24 +2039,6 @@
         }
     },
     {
-        "handle": "skodaautoprivatebugbountyprogram",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "1632202810",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "cz.skodaauto.myskoda",
-                    "type": "Android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "libelle",
         "bounty": 1,
         "active": 1,
