@@ -1,5 +1,119 @@
 [
     {
+        "handle": "telenor-sweden-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.telenor.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.bredbandsbolaget.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.europolitan.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ownit.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.work",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.io",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "agora",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://app.sandbox.agora.incubateur.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://content.agora.beta.gouv.fr",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "spacelift-io-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -456,90 +570,6 @@
                 {
                     "identifier": "api-js.datadome.co",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "doctolib-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.doctolib.(fr|de|it)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Special scenarios (see description)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "telenor-sweden-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.telenor.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.bredbandsbolaget.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.europolitan.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ownit.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.work",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.io",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -1990,36 +2020,6 @@
                 {
                     "identifier": "https://hackme.matrixreq.com",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "agora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://app.sandbox.agora.incubateur.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://content.agora.beta.gouv.fr",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
