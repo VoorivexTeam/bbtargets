@@ -1,5 +1,19 @@
 [
     {
+        "handle": "ant-group-security-response-center-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "In-Scope Applications can be found here: https://mysrc.group/project_detail?id=11",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "doctolib-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
