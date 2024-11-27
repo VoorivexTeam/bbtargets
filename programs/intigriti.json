@@ -13004,25 +13004,12 @@
         },
         "domains": [
             {
-                "id": "c8a595d7-66df-4d78-b06c-3947b2795e11",
+                "id": "0a4a0c96-446b-4606-831e-d0a7e0db5f33",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "technik.beta.autobild.de",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "90ff5dba-54bb-487d-8000-d62788614914",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "technik.autobild.de",
+                "endpoint": "consumer-api.prod.auth.bild.de/self-service/verification?flow=",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -13299,6 +13286,32 @@
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "90ff5dba-54bb-487d-8000-d62788614914",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "technik.autobild.de",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "c8a595d7-66df-4d78-b06c-3947b2795e11",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "technik.beta.autobild.de",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null
             }
@@ -17114,8 +17127,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
