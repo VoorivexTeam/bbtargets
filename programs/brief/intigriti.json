@@ -4153,10 +4153,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "consumer-api.prod.auth.bild.de/self-service/verification?flow=",
-                    "type": "Url"
-                },
-                {
                     "identifier": "technik.autobild.de",
                     "type": "Url"
                 },

@@ -13004,19 +13004,6 @@
         },
         "domains": [
             {
-                "id": "0a4a0c96-446b-4606-831e-d0a7e0db5f33",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "consumer-api.prod.auth.bild.de/self-service/verification?flow=",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
                 "id": "35e82459-6f6f-4293-bfc1-8e8ace40e710",
                 "type": {
                     "id": 7,
