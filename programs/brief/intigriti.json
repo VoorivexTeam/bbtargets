@@ -847,11 +847,19 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "*.ninjakiwi.com",
-                    "type": "Wildcard"
+                    "identifier": "alerts.ninjakiwi.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "boomer2.ninjakiwi.com",
+                    "type": "Url"
                 },
                 {
                     "identifier": "ct.ninjakiwi.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "mynk-dash.ninjakiwi.com",
                     "type": "Url"
                 },
                 {
@@ -863,7 +871,16 @@
                     "type": "Wildcard"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "store.ninjakiwi.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "support.ninjakiwi.com",
+                    "type": "Url"
+                }
+            ]
         }
     },
     {
@@ -2823,7 +2840,7 @@
     {
         "handle": "prato",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
