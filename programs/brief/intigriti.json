@@ -282,11 +282,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "on-premises software",
+                    "identifier": "Modernized Discovery",
                     "type": "Url"
                 },
                 {
-                    "identifier": "OT scanner",
+                    "identifier": "on-premises software",
                     "type": "Url"
                 },
                 {
@@ -3943,7 +3943,7 @@
     {
         "handle": "suivoweb",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -4408,6 +4408,20 @@
                     "type": "Wildcard"
                 }
             ]
+        }
+    },
+    {
+        "handle": "challenge1224",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://challenge-1224.intigriti.io",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {

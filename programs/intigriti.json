@@ -239,7 +239,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "[CokeOn iOS App](https://apps.apple.com/jp/app/coke-on/id1088184021?l=en-US)\n\n[CokeOn Android App](https://play.google.com/store/apps/details?id=com.coke.cokeon&hl=en_US&pli=1)\n\n[Coca-Cola iOS App](https://apps.apple.com/us/app/one-by-the-coca-cola-company/id1310675636)\n\n[Coca-Cola Android App](https://play.google.com/store/apps/details?id=com.cocacola.app.cee&pli=1)\n\n[Costa Coffee iOS App](https://itunes.apple.com/app/id578627826)\n\n[Costa Coffee Android App](https://play.google.com/store/apps/details?id=uk.co.club.costa.costa)\n\n[Costa Coffee Club Poland iOS App](https://itunes.apple.com/app/id1435140959)\n\n[Costa Coffee Club Poland Android App](https://play.google.com/store/apps/details?id=pl.costacoffee.club)"
+                "description": "[Coca-Cola iOS App](https://apps.apple.com/us/app/one-by-the-coca-cola-company/id1310675636)\n\n[Coca-Cola Android App](https://play.google.com/store/apps/details?id=com.cocacola.app.cee&pli=1)\n\n[Costa Coffee iOS App](https://itunes.apple.com/app/id578627826)\n\n[Costa Coffee Android App](https://play.google.com/store/apps/details?id=uk.co.club.costa.costa)\n\n[Costa Coffee Club Poland iOS App](https://itunes.apple.com/app/id1435140959)\n\n[Costa Coffee Club Poland Android App](https://play.google.com/store/apps/details?id=pl.costacoffee.club)"
             },
             {
                 "id": "ba5d3e85-4c85-47f7-9fc5-620e9115d7f2",
@@ -798,19 +798,6 @@
         },
         "domains": [
             {
-                "id": "5393fc17-710f-4d7f-97c6-61b78ac8360d",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": " lsrunase2.0 and lsencrypt2.0 ",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
                 "id": "1fa3f131-ef7d-477e-9a52-46f4da7293da",
                 "type": {
                     "id": 1,
@@ -928,6 +915,19 @@
                 "description": "Auth0 identitiy provider for cloud platform.\nAlways use \"intigriti.me\" address for any user account\n\n"
             },
             {
+                "id": "bdb51a62-4de1-4ed0-90ec-5a270a1324e5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "Modernized Discovery",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Modernized scanner to discover IT and OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/sites/install-network-discovery/ta-p/72388\n* Info on Modernized Discovery: https://community.lansweeper.com/t5/sites/lansweeper-discovery/ta-p/75199#feedbackquestions\n* OT specific: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599"
+            },
+            {
                 "id": "21f59e42-56f9-4177-be5a-7761e419ebc5",
                 "type": {
                     "id": 1,
@@ -939,19 +939,6 @@
                     "value": "Tier 3"
                 },
                 "description": "The on-premises software is the latest available version on our website (www.lansweeper.com/changelog).\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process."
-            },
-            {
-                "id": "bdb51a62-4de1-4ed0-90ec-5a270a1324e5",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "OT scanner",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Scanner to discover OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/lansweeper-ot/how-to-install-lansweeper-ot/ta-p/64597\n* How to scan OT devices: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599"
             },
             {
                 "id": "06e8baa6-b1f0-46e9-8c95-09e7bed6f3e8",
@@ -978,6 +965,19 @@
                     "value": "No Bounty"
                 },
                 "description": "Any other public-facing Lansweeper related URL"
+            },
+            {
+                "id": "5393fc17-710f-4d7f-97c6-61b78ac8360d",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": " lsrunase2.0 and lsencrypt2.0 ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
             },
             {
                 "id": "bccfe1ce-2a08-4f0d-8326-73e4dab4ec4d",
@@ -12608,8 +12608,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -14089,6 +14089,50 @@
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": "9989861c-bd78-490b-b108-fc13869ba7c6",
+        "handle": "challenge1224",
+        "name": "Challenge 1224 by Jorian",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge1224/detail"
+        },
+        "domains": [
+            {
+                "id": "dca124f1-0b16-4514-960d-c8e6272e42d6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://challenge-1224.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": null
             }
