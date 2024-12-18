@@ -1909,57 +1909,6 @@
         }
     },
     {
-        "handle": "clabs",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "explorer.celo.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "forno.celo.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://*.celo.org",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://github.com/celo-org/*",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "optics.app",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "stcelo.xyz",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://celo.org",
-                    "type": "Url"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "celoprod.azurecr.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "grameen.celo.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "hackathon.celo.org",
-                    "type": "Url"
-                }
-            ]
-        }
-    },
-    {
         "handle": "VismaResponsibleDisclosure",
         "bounty": 0,
         "active": 1,
@@ -7251,7 +7200,7 @@
     {
         "handle": "intergamma",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
